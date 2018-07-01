@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/engineer/bpv/bpv.bdf
+source_file = 1, /home/engineer/bpv/output_files/Chain1.cdf
+source_file = 1, /home/engineer/bpv/db/bpv.cbx.xml
+design_name = bpv
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, bpv, 1
+instance = comp, \pin_name1~output , pin_name1~output, bpv, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~ , ~QUARTUS_CREATED_UNVM~, bpv, 1
+instance = comp, \~QUARTUS_CREATED_ADC1~ , ~QUARTUS_CREATED_ADC1~, bpv, 1
+instance = comp, \~QUARTUS_CREATED_ADC2~ , ~QUARTUS_CREATED_ADC2~, bpv, 1
+design_name = hard_block
+instance = comp, \~ALTERA_TMS~~ibuf , ~ALTERA_TMS~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_TCK~~ibuf , ~ALTERA_TCK~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_TDI~~ibuf , ~ALTERA_TDI~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_CONFIG_SEL~~ibuf , ~ALTERA_CONFIG_SEL~~ibuf, hard_block, 1

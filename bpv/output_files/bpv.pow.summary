@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Thu Jun 28 16:05:19 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : bpv
+Top-level Entity Name : bpv
+Family : MAX 10
+Device : 10M25SAE144I7G
+Power Models : Final
+Total Thermal Power Dissipation : 229.79 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 223.00 mW
+I/O Thermal Power Dissipation : 6.79 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
