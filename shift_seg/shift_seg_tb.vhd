@@ -17,11 +17,12 @@ end shift_seg_tb ;
 		
 architecture RTL_shift_seg_tb of shift_seg_tb is
 component shift_seg
-	--generic
-	--(
-		--GENERICN : integer range 1 to 32 := 2;
-		
-	--);
+	generic
+	(
+		TIME_ms : integer range 0 to 1000 := 20; --частота обновления данных	
+		SYS_CLK_MHz: integer range 0 to 1000 := 50	;
+		SEG_BITS : integer range 0 to 256 :=4
+	);
 	port( 
 		in_std_clk : in std_logic;
 		out_std_clk : out std_logic;
